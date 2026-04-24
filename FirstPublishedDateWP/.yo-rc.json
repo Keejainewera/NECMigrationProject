@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.8",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "nec-date",
+    "libraryId": "b4d59fa2-91c3-457e-9590-6fd300b65408",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "NECDate",
+    "solutionShortDescription": "NECDate description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
