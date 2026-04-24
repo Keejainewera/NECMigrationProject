@@ -1,0 +1,141 @@
+.footer-container {
+    background-color: black;
+    color: white;  
+    padding: 20px;
+    width: 100%;
+    position: relative; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%; /* Avoids any unintended width restrictions */
+    box-sizing: border-box; 
+  }
+  
+  
+  .footer-wrapper {
+      display: flex;
+      flex-direction: column;
+      /* min-height: 100vh; */
+      /* width: 1640px; */
+      width: 100%;
+      /* margin-left: -218px;
+      margin-bottom: -31px; */
+  }
+  .page-content {
+    flex: 1; 
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;  
+    margin: 0;
+    padding: 20px 0px;
+    width: 100%;
+  }
+  
+  .footerlogo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: -30px;
+  }
+  
+  .copyright {
+    font-size: 14px;
+    margin-top: 5px;
+    border-bottom: 1px solid #dddddda3;
+    padding-bottom: 27px;
+  }
+  
+ .legal-follow-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.legal-text {
+  flex: 1;
+  color: white;
+  font-size: 12px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Optional: Style the FollowStar if needed */
+.legal-follow-row .ms-Button {
+  margin-left: auto;
+}
+  
+  .links {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: left;
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    max-width: 250px;
+    margin-top: 15px;
+    
+    /* width: 100%; */
+    float: right;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    float: right;
+    /* margin-right: 230px; */
+    /* margin-top: 22px; */
+    position: relative;
+      top: 20px;
+    .icon {
+      font-size: 25px;
+      color: gray;
+      text-decoration: none;
+  
+      &:hover {
+        color: white;
+      }
+    }
+  }
+  
+  .help-button {
+    margin-top: 20px;
+  
+    button {
+      background-color: gray;
+      color: white;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: white;
+        color: black;
+      }
+    }
+  }
+  .imglogo {
+    /* height: 65px;
+    margin-left: -25px; */
+    max-width: 80px
+  }
+
+  

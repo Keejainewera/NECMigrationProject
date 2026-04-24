@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="NecHeader"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="3c27b49f-82eb-471e-bc6d-37de45235c61"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

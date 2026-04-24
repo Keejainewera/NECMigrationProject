@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://neweracapco.sharepoint.com/sites/TEST703/SitePages/Practical-Implementation.aspx",
+      "customActions": {
+        "3c27b49f-82eb-471e-bc6d-37de45235c61": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "necHeader": {
+      "pageUrl": "https://neweracapco.sharepoint.com/sites/TEST703/SitePages/Practical-Implementation.aspx",
+      "customActions": {
+        "3c27b49f-82eb-471e-bc6d-37de45235c61": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

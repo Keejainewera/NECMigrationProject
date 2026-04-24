@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "nec-header-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/necHeader/NecHeaderApplicationCustomizer.js",
+          "manifest": "./src/extensions/necHeader/NecHeaderApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "NecHeaderApplicationCustomizerStrings": "lib/extensions/necHeader/loc/{locale}.js"
+  }
+}

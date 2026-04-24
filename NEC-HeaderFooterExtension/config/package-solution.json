@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "NEC-GlobalHeaderFooter-Solution",
+    "id": "bfd3f38f-6d15-4fcd-92b8-c76f7248e128",
+    "version": "1.1.3.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "NEC-GlobalHeaderFooter description"
+      },
+      "longDescription": {
+        "default": "NEC-GlobalHeaderFooter description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },  
+    "features": [
+      {
+        "title": "NEC Extension - Custom Header and Footer",
+        "description": "Deploys a custom Header and Footer with ClientSideComponentId association",
+        "id": "a629b711-29e8-461c-b158-b10119603737",
+        "version": "1.1.1.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "ClientSideInstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/NEC-GlobalHeaderFooter.sppkg"
+  }
+}
